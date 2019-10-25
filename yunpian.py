@@ -21,6 +21,15 @@ def send_message(code, phone):
     res.encoding = 'utf-8'
     content = res.json()
     print(content)
+    # {
+    #     "code": 0,
+    #     "msg": "发送成功",
+    #     "count": 1,
+    #     "fee": 0.05,
+    #     "unit": "RMB",
+    #     "mobile": "17303802082",
+    #     "sid": 47432515906
+    # }
 
 
 if __name__ == '__main__':
